@@ -1,0 +1,57 @@
+label + .css-11gxpxy-MuiInputBase-root-MuiInput-root {
+  margin-top: 0 !important;
+}
+
+.css-1f8678c-MuiFormLabel-root-MuiInputLabel-root {
+  padding: 0 0 0 10px !important;
+  top: -10px !important;
+}
+
+.css-1c3j9he-MuiFormControl-root-MuiTextField-root {
+  padding: 0 0 0 -10px !important;
+}
+
+.css-115dw6s {
+  padding: 15px !important;
+}
+
+.questionLabel {
+  padding: 0 10px 0 0 !important;
+}
+
+.css-11gxpxy-MuiInputBase-root-MuiInput-root:before {
+  left: 5px !important;
+}
+
+.css-osp2g4-MuiFormLabel-root-MuiInputLabel-root {
+  top: -10px !important;
+}
+
+.answer {
+  padding-top: 10px;
+}
+
+.boxcard {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.account {
+  display: block !important;
+}
+.flexWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1400px) {
+  .css-zow5z4-MuiGrid-root {
+    max-width: 100% !important;
+  }
+
+  .css-15lih1o-MuiGrid-root {
+    display: 100% !important;
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}

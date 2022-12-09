@@ -1,0 +1,54 @@
+.MuiDrawer-paper {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  height: 100vh !important;
+}
+
+.css-1x3v3vy {
+  background: #fff6 !important;
+  border-left: 2px solid #000033;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.css-mvs481 {
+  color: #fff !important;
+  font-size: 15px !important;
+  letter-spacing: 0.3px !important;
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+}
+
+.css-mvs481:hover,
+.css-mvs481:focus {
+  background-color: #fff6 !important;
+  border-left: 2px solid #000033;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.css-qh1700-MuiListItemText-root span {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
+.logoWrapper {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  padding: 24px;
+  border: 7px solid #c7007d;
+  /* border: 7px solid #660670; */
+  border-radius: 100px;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageSet {
+  width: 150px;
+  height: 100px;
+
+}

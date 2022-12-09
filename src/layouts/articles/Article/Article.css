@@ -1,0 +1,105 @@
+.articleCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.articleCard {
+  width: 30%;
+  /* height: fit-content; */
+  margin: 20px;
+}
+.longContentText {
+  height: 150px;
+  overflow-y: hidden;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.readMoreButton {
+  text-align: center;
+  width: 45%;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+.readMoreButton:hover {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.addArticle {
+  margin-top: 10px;
+  margin-left: auto;
+  text-align: center;
+  width: 10%;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.addArticle:hover {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.customModalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 24px;
+  border: none;
+}
+/* Modal */
+.articleModalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  background: #fff;
+  padding: 24px;
+  border-radius: 14px;
+  outline: none;
+}
+.editorTextContainer {
+  height: 200px;
+}
+.editorTextContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.editorTextContainer::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.editorTextContainer::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 10px;
+}
+.cardCloseIcon {
+  background: #fff;
+  border-radius: 0px 10px 0px 10px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.articleCardTitle {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

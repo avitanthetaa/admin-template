@@ -1,0 +1,107 @@
+.selectArticle {
+  width: fit-content;
+  height: 400px;
+}
+.closeButton {
+  width: fit-content;
+}
+.closeButton {
+  text-align: center;
+  width: 200px;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+.closeButton:hover {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* EditArticle */
+
+.customInput {
+  border: none;
+  background: #ced4da;
+  border-radius: 14px;
+  font-size: 16px;
+  padding: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 16px;
+  width: 100%;
+  height: 54px;
+}
+.customTextarea {
+  border: none;
+  background: #ced4da;
+  border-radius: 14px;
+  font-size: 16px;
+  padding: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 16px;
+  width: 100%;
+  height: 210px;
+}
+
+.uploadImageWrapper {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.uploadButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.addImageButton {
+  text-align: center;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 14px;
+}
+.uploadImageCenter {
+  display: flex;
+  justify-content: center;
+}
+.uploadImage {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+.updateButton {
+  text-align: center;
+  background: #000033;
+  border: 1px solid #000033;
+  color: #fff;
+  border-radius: 27px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 14px;
+  width: 241px;
+}
+.inputError {
+  border: 2px solid #dc3545 !important;
+}
+.errorMessage {
+  padding: 0;
+  margin: 4px 0 10px 0;
+  color: #dc3545;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  width: 100%;
+}

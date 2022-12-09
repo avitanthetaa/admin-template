@@ -1,0 +1,16 @@
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.signInLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.TitleColor {
+  background: linear-gradient(180deg, #4834d4, #341f97) !important;
+}
+
+/* background: linear-gradient(90deg, #4834d4, #341f97); */
